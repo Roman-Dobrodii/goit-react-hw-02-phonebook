@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import ContactList from './ContactList/ContactList';
-import ContactForm from './ContactForm/ContactForm';
-import Filter from './Filter/Filter';
+import ContactList from '../ContactList/ContactList';
+import ContactForm from '.././ContactForm/ContactForm';
+import Filter from '.././Filter/Filter';
 import { v4 as uuidv4 } from 'uuid';
 import style from './App.module.css';
 import PropTypes from 'prop-types';
